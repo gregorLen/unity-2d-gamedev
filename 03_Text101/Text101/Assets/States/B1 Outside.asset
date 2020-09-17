@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d80482ba285cd94398ae7d440b2eab3, type: 3}
+  m_Name: B1 Outside
+  m_EditorClassIdentifier: 
+  storyText: 'You are outside now. There''s the time machine! You want to go back
+    to 2020 or go back to play Pac Man?
+
+
+
+    1. Fuck it. Play Pacman
+
+    2. Take
+    the time machine'
+  nextStates:
+  - {fileID: 11400000, guid: a9189ac6bc56f9945af37ae0efb6cc7c, type: 2}
+  - {fileID: 11400000, guid: 7d701e17ca28bf34bbf7cafed2f37024, type: 2}

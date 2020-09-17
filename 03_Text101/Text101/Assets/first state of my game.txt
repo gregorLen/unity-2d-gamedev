@@ -1,0 +1,5 @@
+You stand in front of a game shop. You walk in. There's a milkshake vendor machine and a Pac-Man machine. 
+
+What do you do?
+1. get a milk shake
+2. play pac-man

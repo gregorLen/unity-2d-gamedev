@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d80482ba285cd94398ae7d440b2eab3, type: 3}
+  m_Name: A5 PacMan2
+  m_EditorClassIdentifier: 
+  storyText: 'Okay. You can have a milk shake now or exit the game shop.
+
+
+
+    1.
+    have a milk shake
+
+    2. exit the shop'
+  nextStates:
+  - {fileID: 11400000, guid: 9d4ec60cea18791409d70af51fc7c43a, type: 2}
+  - {fileID: 11400000, guid: e52e4d7dd6136484fa4c8c3350d9d0ea, type: 2}
