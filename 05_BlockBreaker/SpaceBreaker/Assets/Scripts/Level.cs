@@ -11,9 +11,7 @@ public class Level : MonoBehaviour
 
     public void Start()
     {
-        Debug.Log("entered start method");
         sceneLoader = FindObjectOfType<SceneLoader>();
-        print(sceneLoader);
     }
 
     public void CountBreakableBlocks()

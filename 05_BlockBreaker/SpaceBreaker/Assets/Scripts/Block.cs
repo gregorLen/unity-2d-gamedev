@@ -17,12 +17,8 @@ public class Block : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("entered collision");
-        Debug.Log("Should add score");
-        FindObjectOfType<GameStatus>().AddToScore();
-        Debug.Log("Play Clip");
+        FindObjectOfType<GameSession>().AddToScore();
         AudioSource.PlayClipAtPoint(breakSound, Camera.main.transform.position);
-        Debug.Log("Destroy Game Object");
         Destroy(gameObject);
         level.BlockDestroyed();
 
